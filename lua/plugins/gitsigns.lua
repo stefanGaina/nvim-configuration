@@ -8,5 +8,6 @@ return {
             virt_text_pos = "eol",
             },
         })
+        vim.api.nvim_set_hl(0, "GitSignsCurrentLineBlame", { fg = "#444444" })
     end
 }
