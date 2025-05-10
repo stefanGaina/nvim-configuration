@@ -14,11 +14,13 @@ return {
         vim.api.nvim_set_hl(0, "Statement", { fg = "#D8A0DF" })
         vim.api.nvim_set_hl(0, "Exception", { fg = "#D8A0DF" })
         vim.api.nvim_set_hl(0, "Include", { fg = "#9A9A9A" })
+        vim.api.nvim_set_hl(0, "Define", { fg = "#9A9A9A" })
         vim.api.nvim_set_hl(0, "PreProc", { fg = "#9A9A9A" })
         vim.api.nvim_set_hl(0, "Type", { fg = "#569CD6" })
         vim.api.nvim_set_hl(0, "Label", { fg = "#569CD6" })
         vim.api.nvim_set_hl(0, "cppAccess", { fg = "#569CD6" })
         vim.api.nvim_set_hl(0, "cppConstant", { fg = "#569CD6" })
         vim.api.nvim_set_hl(0, "@lsp.type.macro.cpp", { fg = "#BEB7FF" })
+        vim.api.nvim_set_hl(0, "@lsp.type.macro.c", { fg = "#BEB7FF" })
     end,
 }
